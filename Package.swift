@@ -4,17 +4,17 @@
 import PackageDescription
 
 let package = Package(
-    name: "TensorFlowLiteSwift",
+    name: "TensorFlowLite",
     platforms: [.iOS(.v12)],
     products: [
         .library(
-            name: "TensorFlowLiteSwift",
-            targets: ["TensorFlowLiteSwift"]
+            name: "TensorFlowLite",
+            targets: ["TensorFlowLite"]
         )
     ],
     targets: [
         .target(
-            name: "TensorFlowLiteSwift"
+            name: "TensorFlowLite"
         )
     ]
 )
